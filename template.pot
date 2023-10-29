@@ -228,7 +228,7 @@ msgstr ""
 msgid "You have new messages in chat"
 msgstr ""
 
-#: src\components\Converter.jsx:562
+#: src\components\Converter.jsx:565
 #: src\components\CoordinatesBox.jsx:31
 #: src\components\ModWatchtools.jsx:378
 #: src\components\ModWatchtools.jsx:396
@@ -248,7 +248,6 @@ msgid "Pixels placed"
 msgstr ""
 
 #: src\components\buttons\CanvasSwitchButton.jsx:20
-#: src\components\windows\index.js:19
 #: src\components\windows\index.js:21
 msgid "Canvas Selection"
 msgstr ""
@@ -275,41 +274,6 @@ msgstr ""
 
 #: src\components\HistorySelect.jsx:145
 msgid "Select Date above"
-msgstr ""
-
-#: src\components\BanInfo.jsx:75
-#: src\components\buttons\HelpButton.jsx:20
-#: src\components\windows\index.js:13
-#: src\components\windows\index.js:14
-msgid "Help"
-msgstr ""
-
-#: src\components\buttons\SettingsButton.jsx:21
-#: src\components\windows\index.js:14
-#: src\components\windows\index.js:16
-msgid "Settings"
-msgstr ""
-
-#: src\components\buttons\LogInButton.jsx:20
-#: src\components\windows\index.js:15
-#: src\components\windows\index.js:17
-msgid "User Area"
-msgstr ""
-
-#: src\components\buttons\DownloadButton.jsx:36
-msgid "Make Screenshot"
-msgstr ""
-
-#: src\components\buttons\GlobeButton.jsx:34
-msgid "Globe View"
-msgstr ""
-
-#: src\components\buttons\PalselButton.jsx:30
-msgid "Close Palette"
-msgstr ""
-
-#: src\components\buttons\PalselButton.jsx:30
-msgid "Open Palette"
 msgstr ""
 
 #: src\components\Admintools.jsx:156
@@ -345,32 +309,80 @@ msgstr ""
 msgid "Resize"
 msgstr ""
 
+#: src\components\BanInfo.jsx:75
+#: src\components\buttons\HelpButton.jsx:20
+#: src\components\windows\index.js:14
+msgid "Help"
+msgstr ""
+
+#: src\components\buttons\SettingsButton.jsx:21
 #: src\components\windows\index.js:16
+msgid "Settings"
+msgstr ""
+
+#: src\components\buttons\DonatorButton.jsx:20
+msgid "Donator"
+msgstr ""
+
+#: src\components\buttons\LogInButton.jsx:20
+#: src\components\windows\index.js:17
+msgid "User Area"
+msgstr ""
+
+#: src\components\buttons\DownloadButton.jsx:36
+msgid "Make Screenshot"
+msgstr ""
+
+#: src\components\buttons\GlobeButton.jsx:34
+msgid "Globe View"
+msgstr ""
+
+#: src\components\buttons\PalselButton.jsx:30
+msgid "Close Palette"
+msgstr ""
+
+#: src\components\buttons\PalselButton.jsx:30
+msgid "Open Palette"
+msgstr ""
+
+#: src\components\windows\index.js:15
+msgid "Donator Menu"
+msgstr ""
+
 #: src\components\windows\index.js:18
 msgid "Registration"
 msgstr ""
 
-#: src\components\windows\index.js:17
 #: src\components\windows\index.js:19
 msgid "Forgot Password"
 msgstr ""
 
-#: src\components\windows\index.js:18
 #: src\components\windows\index.js:20
 msgid "Chat"
 msgstr ""
 
-#: src\components\windows\index.js:20
 #: src\components\windows\index.js:22
 msgid "Canvas Archive"
 msgstr ""
 
-#: src\components\BanInfo.jsx:66
-msgid "You are banned. You think it is unjustified? Check out the "
+#: src\components\GlobalCaptcha.jsx:47
+msgid "You took too long, try again."
 msgstr ""
 
-#: src\components\BanInfo.jsx:76
-msgid " on how to appeal."
+#: src\components\GlobalCaptcha.jsx:50
+msgid "You failed your captcha"
+msgstr ""
+
+#: src\components\GlobalCaptcha.jsx:53
+msgid "No or invalid captcha text"
+msgstr ""
+
+#: src\components\GlobalCaptcha.jsx:56
+msgid "No captcha id given"
+msgstr ""
+
+#: src\components\GlobalCaptcha.jsx:59
+msgid "Unknown Captcha Error"
 msgstr ""
 
 #: src\components\BanInfo.jsx:80
@@ -384,6 +396,28 @@ msgstr ""
 #: src\components\windows\ForgotPassword.jsx:73
 #: src\components\windows\Register.jsx:89
 msgid "Error"
+msgstr ""
+
+#: src\components\ChangeMail.jsx:93
+#: src\components\ChangeName.jsx:70
+#: src\components\ChangePassword.jsx:115
+#: src\components\DeleteAccount.jsx:68
+#: src\components\GlobalCaptcha.jsx:80
+#: src\components\windows\ForgotPassword.jsx:89
+#: src\components\windows\Register.jsx:133
+msgid "Cancel"
+msgstr ""
+
+#: src\components\GlobalCaptcha.jsx:86
+msgid "Send"
+msgstr ""
+
+#: src\components\BanInfo.jsx:66
+msgid "You are banned. You think it is unjustified? Check out the "
+msgstr ""
+
+#: src\components\BanInfo.jsx:76
+msgid " on how to appeal."
 msgstr ""
 
 #: src\components\BanInfo.jsx:85
@@ -420,47 +454,89 @@ msgstr ""
 msgid "Why?"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:47
-msgid "You took too long, try again."
+#: src\components\windows\DonatorMenu.jsx:55
+#: src\components\windows\DonatorMenu.jsx:61
+msgid "Back"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:50
-msgid "You failed your captcha"
+#: src\components\windows\DonatorMenu.jsx:74
+msgid "1 Month"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:53
-msgid "No or invalid captcha text"
+#: src\components\windows\DonatorMenu.jsx:86
+msgid "2 Month"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:56
-msgid "No captcha id given"
+#: src\components\windows\DonatorMenu.jsx:97
+msgid "3 Month"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:59
-msgid "Unknown Captcha Error"
+#: src\components\windows\DonatorMenu.jsx:100
+msgid "Pay with"
 msgstr ""
 
-#: src\components\ChangeMail.jsx:93
-#: src\components\ChangeName.jsx:70
-#: src\components\ChangePassword.jsx:115
-#: src\components\DeleteAccount.jsx:68
-#: src\components\GlobalCaptcha.jsx:80
-#: src\components\windows\ForgotPassword.jsx:89
-#: src\components\windows\Register.jsx:133
-msgid "Cancel"
+#: src\components\windows\DonatorMenu.jsx:110
+msgid "Visa"
 msgstr ""
 
-#: src\components\GlobalCaptcha.jsx:86
-msgid "Send"
+#: src\components\windows\DonatorMenu.jsx:121
+msgid "Paypal"
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:19
-#: src\components\windows\DonatorMenu.jsx:28
+#: src\components\windows\DonatorMenu.jsx:123
+msgid "Next"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:133
+msgid ""
+"CanvasPixel needs donations to provide a free pixel gaming service. That's "
+"why we are introducing a special paid membership program for our donors!"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:136
+msgid ""
+"Players with the Premium Membership we mentioned will enjoy the following "
+"advantages:"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:138
+msgid "50% reduced pixel placement cooldown."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:139
+msgid "Diamond icon in the chat instead of your country's flag."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:140
+msgid "Immunity from national mutes in the chat."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:141
+msgid ""
+"Exclusive chat channels, roles and name colors on the official Discord "
+"server."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:142
+msgid "Personalized technical support from the authorized team."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:146
+msgid "Monthly Pricing:"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Login to purchase!"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Click to purchase!"
+msgstr ""
+
 #: src\components\windows\Help.jsx:43
 msgid "Place color pixels on a large canvas with other players online!"
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:20
 #: src\components\windows\Help.jsx:44
 msgid ""
 "Our main canvas is a huge worldmap, you can place wherever you like, but "
@@ -471,20 +547,16 @@ msgid ""
 "and 7s on already set pixels."
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:24
 #: src\components\windows\Help.jsx:48
 msgid ""
 "Higher zoomlevels take some time to update, the 3D globe gets updated at "
 "least once per day."
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:25
 #: src\components\windows\Help.jsx:49
 msgid "Have fun!"
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:27
-#: src\components\windows\DonatorMenu.jsx:30
 #: src\components\windows\Help.jsx:51
 msgid "Source on "
 msgstr ""
@@ -694,7 +766,7 @@ msgstr ""
 msgid "For when you are playing on a potato."
 msgstr ""
 
-#: src\components\Converter.jsx:377
+#: src\components\Converter.jsx:380
 #: src\components\windows\Settings.jsx:148
 msgid "Light Grid"
 msgstr ""
@@ -792,17 +864,6 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
-#: src\components\windows\CanvasSelect.jsx:29
-msgid ""
-"Select the canvas you want to use.  Every canvas is unique and has "
-"different palettes, cooldown and requirements.  Archive of closed canvases "
-"can be accessed here:"
-msgstr ""
-
-#: src\components\windows\CanvasSelect.jsx:37
-msgid "Archive"
-msgstr ""
-
 #: src\components\windows\Archive.jsx:16
 msgid ""
 "While we tend to not delete canvases, some canvases are started for fun or "
@@ -834,6 +895,17 @@ msgid ""
 "We decided to archive it as a timelapse with lossless encoded webm. Taking "
 "a screenshot from the timelapse results in a perfect 1:1 representation of "
 "how the canvas was at that time."
+msgstr ""
+
+#: src\components\windows\CanvasSelect.jsx:29
+msgid ""
+"Select the canvas you want to use.  Every canvas is unique and has "
+"different palettes, cooldown and requirements.  Archive of closed canvases "
+"can be accessed here:"
+msgstr ""
+
+#: src\components\windows\CanvasSelect.jsx:37
+msgid "Archive"
 msgstr ""
 
 #: src\components\windows\Chat.jsx:180
@@ -949,13 +1021,6 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: src\components\ChangeMail.jsx:91
-#: src\components\ChangeName.jsx:68
-#: src\components\ChangePassword.jsx:109
-#: src\components\LanguageSelect.jsx:80
-msgid "Save"
-msgstr ""
-
 #: src\components\LogInArea.jsx:19
 msgid "Login to access more features and stats."
 msgstr ""
@@ -1028,6 +1093,85 @@ msgstr ""
 msgid "Social Settings"
 msgstr ""
 
+#: src\components\Converter.jsx:190
+#: src\components\ModCanvastools.jsx:226
+msgid "Choose Canvas"
+msgstr ""
+
+#: src\components\Converter.jsx:217
+msgid "Palette Download"
+msgstr ""
+
+#: src\components\Converter.jsx:219
+#, javascript-format
+msgid "Palette for ${ gimpLink }"
+msgstr ""
+
+#: src\components\Converter.jsx:240
+msgid "Image Converter"
+msgstr ""
+
+#: src\components\Converter.jsx:241
+msgid "Convert an image to canvas colors"
+msgstr ""
+
+#: src\components\Converter.jsx:260
+msgid "Choose Strategy"
+msgstr ""
+
+#: src\components\Converter.jsx:298
+msgid "Serpentine"
+msgstr ""
+
+#: src\components\Converter.jsx:300
+msgid "Minimum Color Distance"
+msgstr ""
+
+#: src\components\Converter.jsx:327
+msgid "Calculate like GIMP"
+msgstr ""
+
+#: src\components\Converter.jsx:331
+msgid "Choose Color Mode"
+msgstr ""
+
+#: src\components\Converter.jsx:360
+msgid "Add Grid (uncheck if you need a 1:1 template)"
+msgstr ""
+
+#: src\components\Converter.jsx:382
+#: src\components\Converter.jsx:398
+msgid "Offset"
+msgstr ""
+
+#: src\components\Converter.jsx:427
+msgid "Scale Image"
+msgstr ""
+
+#: src\components\Converter.jsx:438
+msgid "Width"
+msgstr ""
+
+#: src\components\Converter.jsx:469
+msgid "Height"
+msgstr ""
+
+#: src\components\Converter.jsx:508
+msgid "Keep Ratio"
+msgstr ""
+
+#: src\components\Converter.jsx:521
+msgid "Anti Aliasing"
+msgstr ""
+
+#: src\components\Converter.jsx:535
+msgid "Reset"
+msgstr ""
+
+#: src\components\Converter.jsx:553
+msgid "Download Template"
+msgstr ""
+
 #: src\components\Rankings.jsx:147
 msgid "Total"
 msgstr ""
@@ -1060,85 +1204,6 @@ msgstr ""
 
 #: src\components\Rankings.jsx:286
 msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
-msgstr ""
-
-#: src\components\Converter.jsx:190
-#: src\components\ModCanvastools.jsx:226
-msgid "Choose Canvas"
-msgstr ""
-
-#: src\components\Converter.jsx:217
-msgid "Palette Download"
-msgstr ""
-
-#: src\components\Converter.jsx:219
-#, javascript-format
-msgid "Palette for ${ gimpLink }"
-msgstr ""
-
-#: src\components\Converter.jsx:237
-msgid "Image Converter"
-msgstr ""
-
-#: src\components\Converter.jsx:238
-msgid "Convert an image to canvas colors"
-msgstr ""
-
-#: src\components\Converter.jsx:257
-msgid "Choose Strategy"
-msgstr ""
-
-#: src\components\Converter.jsx:295
-msgid "Serpentine"
-msgstr ""
-
-#: src\components\Converter.jsx:297
-msgid "Minimum Color Distance"
-msgstr ""
-
-#: src\components\Converter.jsx:324
-msgid "Calculate like GIMP"
-msgstr ""
-
-#: src\components\Converter.jsx:328
-msgid "Choose Color Mode"
-msgstr ""
-
-#: src\components\Converter.jsx:357
-msgid "Add Grid (uncheck if you need a 1:1 template)"
-msgstr ""
-
-#: src\components\Converter.jsx:379
-#: src\components\Converter.jsx:395
-msgid "Offset"
-msgstr ""
-
-#: src\components\Converter.jsx:424
-msgid "Scale Image"
-msgstr ""
-
-#: src\components\Converter.jsx:435
-msgid "Width"
-msgstr ""
-
-#: src\components\Converter.jsx:466
-msgid "Height"
-msgstr ""
-
-#: src\components\Converter.jsx:505
-msgid "Keep Ratio"
-msgstr ""
-
-#: src\components\Converter.jsx:518
-msgid "Anti Aliasing"
-msgstr ""
-
-#: src\components\Converter.jsx:532
-msgid "Reset"
-msgstr ""
-
-#: src\components\Converter.jsx:550
-msgid "Download Template"
 msgstr ""
 
 #: src\components\CanvasItem.jsx:29
@@ -1186,6 +1251,13 @@ msgstr ""
 msgid "Dimensions"
 msgstr ""
 
+#: src\components\ChangeMail.jsx:91
+#: src\components\ChangeName.jsx:68
+#: src\components\ChangePassword.jsx:109
+#: src\components\LanguageSelect.jsx:80
+msgid "Save"
+msgstr ""
+
 #: src\core\chartSettings.js:30
 msgid "Top 10 Countries [pxls / day]"
 msgstr ""
@@ -1206,14 +1278,6 @@ msgstr ""
 msgid "Total Pixels placed per day"
 msgstr ""
 
-#: src\components\LogInForm.jsx:77
-msgid "Name or Email"
-msgstr ""
-
-#: src\components\LogInForm.jsx:88
-msgid "LogIn"
-msgstr ""
-
 #: src\components\UserMessages.jsx:28
 msgid ""
 "Please verify your mail address or your account could get deleted after a "
@@ -1226,6 +1290,10 @@ msgstr ""
 
 #: src\components\UserMessages.jsx:53
 msgid "Click here to request a new verification mail."
+msgstr ""
+
+#: src\components\ChangeName.jsx:64
+msgid "New Username"
 msgstr ""
 
 #: src\components\ChangePassword.jsx:21
@@ -1246,10 +1314,6 @@ msgstr ""
 
 #: src\components\ChangePassword.jsx:103
 msgid "Confirm New Password"
-msgstr ""
-
-#: src\components\ChangeName.jsx:64
-msgid "New Username"
 msgstr ""
 
 #: src\components\ChangeMail.jsx:59
@@ -1288,6 +1352,64 @@ msgstr ""
 
 #: src\components\SocialSettings.jsx:82
 msgid "You have no users blocked"
+msgstr ""
+
+#: src\components\Admintools.jsx:162
+msgid "Announcement"
+msgstr ""
+
+#: src\components\Admintools.jsx:172
+#: src\components\Admintools.jsx:194
+msgid "Receiver"
+msgstr ""
+
+#: src\components\Admintools.jsx:189
+msgid "Receiver User"
+msgstr ""
+
+#: src\components\Admintools.jsx:234
+#, javascript-format
+msgid "Announce received by ${ body.totalReceiver } people."
+msgstr ""
+
+#: src\components\Admintools.jsx:236
+msgid "Something went wrong while announcing!"
+msgstr ""
+
+#: src\components\Admintools.jsx:239
+msgid "Announce"
+msgstr ""
+
+#: src\components\Admintools.jsx:243
+msgid "IP Actions"
+msgstr ""
+
+#: src\components\Admintools.jsx:245
+msgid "Do stuff with IPs (one IP per line)"
+msgstr ""
+
+#: src\components\Admintools.jsx:292
+msgid "Manage Moderators"
+msgstr ""
+
+#: src\components\Admintools.jsx:294
+msgid "Remove Moderator"
+msgstr ""
+
+#: src\components\Admintools.jsx:327
+msgid "There are no mods"
+msgstr ""
+
+#: src\components\Admintools.jsx:332
+msgid "Assign new Mod"
+msgstr ""
+
+#: src\components\Admintools.jsx:335
+msgid "Enter UserName of new Mod"
+msgstr ""
+
+#: src\components\Admintools.jsx:344
+msgid "User Name"
 msgstr ""
 
 #: src\components\ModCanvastools.jsx:168
@@ -1383,84 +1505,6 @@ msgstr ""
 msgid "Stop Cleaner"
 msgstr ""
 
-#: src\components\Admintools.jsx:162
-msgid "Announcement"
-msgstr ""
-
-#: src\components\Admintools.jsx:172
-#: src\components\Admintools.jsx:194
-msgid "Receiver"
-msgstr ""
-
-#: src\components\Admintools.jsx:189
-msgid "Receiver User"
-msgstr ""
-
-#: src\components\Admintools.jsx:234
-#, javascript-format
-msgid "Announce received by ${ body.totalReceiver } people."
-msgstr ""
-
-#: src\components\Admintools.jsx:236
-msgid "Something went wrong while announcing!"
-msgstr ""
-
-#: src\components\Admintools.jsx:239
-msgid "Announce"
-msgstr ""
-
-#: src\components\Admintools.jsx:243
-msgid "IP Actions"
-msgstr ""
-
-#: src\components\Admintools.jsx:245
-msgid "Do stuff with IPs (one IP per line)"
-msgstr ""
-
-#: src\components\Admintools.jsx:292
-msgid "Manage Moderators"
-msgstr ""
-
-#: src\components\Admintools.jsx:294
-msgid "Remove Moderator"
-msgstr ""
-
-#: src\components\Admintools.jsx:327
-msgid "There are no mods"
-msgstr ""
-
-#: src\components\Admintools.jsx:332
-msgid "Assign new Mod"
-msgstr ""
-
-#: src\components\Admintools.jsx:335
-msgid "Enter UserName of new Mod"
-msgstr ""
-
-#: src\components\Admintools.jsx:344
-msgid "User Name"
-msgstr ""
-
-#: src\components\ModIIDtools.jsx:20
-msgid "You must enter a duration"
-msgstr ""
-
-#: src\components\ModIIDtools.jsx:24
-msgid "You must enter an IID"
-msgstr ""
-
-#: src\components\ModIIDtools.jsx:53
-msgid "IID Actions"
-msgstr ""
-
-#: src\components\ModIIDtools.jsx:80
-msgid "Enter Reason"
-msgstr ""
-
-#: src\components\ModIIDtools.jsx:97
-msgid "(0 = infinite)"
-msgstr ""
-
 #: src\components\ModWatchtools.jsx:48
 msgid "Interval is invalid"
 msgstr ""
@@ -1489,6 +1533,34 @@ msgstr ""
 msgid "Get Users"
 msgstr ""
 
+#: src\components\ModIIDtools.jsx:20
+msgid "You must enter a duration"
+msgstr ""
+
+#: src\components\ModIIDtools.jsx:24
+msgid "You must enter an IID"
+msgstr ""
+
+#: src\components\ModIIDtools.jsx:53
+msgid "IID Actions"
+msgstr ""
+
+#: src\components\ModIIDtools.jsx:80
+msgid "Enter Reason"
+msgstr ""
+
+#: src\components\ModIIDtools.jsx:97
+msgid "(0 = infinite)"
+msgstr ""
+
+#: src\components\LogInForm.jsx:77
+msgid "Name or Email"
+msgstr ""
+
+#: src\components\LogInForm.jsx:88
+msgid "LogIn"
+msgstr ""
+
 #: src\components\contextmenus\UserContextMenu.jsx:49
 msgid "Ping"
 msgstr ""
@@ -1503,352 +1575,6 @@ msgstr ""
 
 #: src\components\contextmenus\ChannelContextMenu.jsx:46
 msgid "Mute"
-msgstr ""
-
-#: src\components\buttons\DonatorButton.jsx:20
-msgid "Donator"
-msgstr ""
-
-#: src\components\windows\index.js:15
-msgid "Donator Menu"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:28
-#: src\components\windows\DonatorMenu.jsx:32
-#: src\components\windows\DonatorMenu.jsx:35
-#: src\components\windows\DonatorMenu.jsx:38
-#: src\components\windows\DonatorMenu.jsx:45
-#: src\components\windows\DonatorMenu.jsx:47
-#: src\components\windows\DonatorMenu.jsx:74
-#: src\components\windows\DonatorMenu.jsx:75
-#: src\components\windows\DonatorMenu.jsx:76
-#: src\components\windows\DonatorMenu.jsx:77
-#: src\components\windows\DonatorMenu.jsx:79
-#: src\components\windows\DonatorMenu.jsx:85
-#: src\components\windows\DonatorMenu.jsx:87
-#: src\components\windows\DonatorMenu.jsx:88
-#: src\components\windows\DonatorMenu.jsx:93
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:115
-#: src\components\windows\DonatorMenu.jsx:120
-#: src\components\windows\DonatorMenu.jsx:125
-#: src\components\windows\DonatorMenu.jsx:133
-#: src\components\windows\DonatorMenu.jsx:134
-msgid ""
-"CanvasPixel needs donations to provide a free pixel gaming service. That's "
-"why we are introducing a special paid membership program for our donors!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:31
-#: src\components\windows\DonatorMenu.jsx:35
-#: src\components\windows\DonatorMenu.jsx:38
-#: src\components\windows\DonatorMenu.jsx:41
-#: src\components\windows\DonatorMenu.jsx:48
-#: src\components\windows\DonatorMenu.jsx:50
-#: src\components\windows\DonatorMenu.jsx:77
-#: src\components\windows\DonatorMenu.jsx:78
-#: src\components\windows\DonatorMenu.jsx:79
-#: src\components\windows\DonatorMenu.jsx:80
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:88
-#: src\components\windows\DonatorMenu.jsx:90
-#: src\components\windows\DonatorMenu.jsx:91
-#: src\components\windows\DonatorMenu.jsx:96
-#: src\components\windows\DonatorMenu.jsx:97
-#: src\components\windows\DonatorMenu.jsx:118
-#: src\components\windows\DonatorMenu.jsx:123
-#: src\components\windows\DonatorMenu.jsx:128
-#: src\components\windows\DonatorMenu.jsx:136
-#: src\components\windows\DonatorMenu.jsx:137
-msgid ""
-"Players with the Premium Membership we mentioned will enjoy the following "
-"advantages:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:33
-#: src\components\windows\DonatorMenu.jsx:37
-#: src\components\windows\DonatorMenu.jsx:40
-#: src\components\windows\DonatorMenu.jsx:43
-#: src\components\windows\DonatorMenu.jsx:50
-#: src\components\windows\DonatorMenu.jsx:52
-#: src\components\windows\DonatorMenu.jsx:79
-#: src\components\windows\DonatorMenu.jsx:80
-#: src\components\windows\DonatorMenu.jsx:81
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:84
-#: src\components\windows\DonatorMenu.jsx:90
-#: src\components\windows\DonatorMenu.jsx:92
-#: src\components\windows\DonatorMenu.jsx:93
-#: src\components\windows\DonatorMenu.jsx:98
-#: src\components\windows\DonatorMenu.jsx:99
-#: src\components\windows\DonatorMenu.jsx:120
-#: src\components\windows\DonatorMenu.jsx:125
-#: src\components\windows\DonatorMenu.jsx:130
-#: src\components\windows\DonatorMenu.jsx:138
-#: src\components\windows\DonatorMenu.jsx:139
-msgid "50% reduced pixel placement cooldown."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:34
-#: src\components\windows\DonatorMenu.jsx:38
-#: src\components\windows\DonatorMenu.jsx:41
-#: src\components\windows\DonatorMenu.jsx:44
-#: src\components\windows\DonatorMenu.jsx:51
-#: src\components\windows\DonatorMenu.jsx:53
-#: src\components\windows\DonatorMenu.jsx:80
-#: src\components\windows\DonatorMenu.jsx:81
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:83
-#: src\components\windows\DonatorMenu.jsx:85
-#: src\components\windows\DonatorMenu.jsx:91
-#: src\components\windows\DonatorMenu.jsx:93
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:99
-#: src\components\windows\DonatorMenu.jsx:100
-#: src\components\windows\DonatorMenu.jsx:121
-#: src\components\windows\DonatorMenu.jsx:126
-#: src\components\windows\DonatorMenu.jsx:131
-#: src\components\windows\DonatorMenu.jsx:139
-#: src\components\windows\DonatorMenu.jsx:140
-msgid "Diamond icon in the chat instead of your country's flag."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:35
-#: src\components\windows\DonatorMenu.jsx:39
-#: src\components\windows\DonatorMenu.jsx:42
-#: src\components\windows\DonatorMenu.jsx:45
-#: src\components\windows\DonatorMenu.jsx:52
-#: src\components\windows\DonatorMenu.jsx:54
-#: src\components\windows\DonatorMenu.jsx:81
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:83
-#: src\components\windows\DonatorMenu.jsx:84
-#: src\components\windows\DonatorMenu.jsx:86
-#: src\components\windows\DonatorMenu.jsx:92
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:95
-#: src\components\windows\DonatorMenu.jsx:100
-#: src\components\windows\DonatorMenu.jsx:101
-#: src\components\windows\DonatorMenu.jsx:122
-#: src\components\windows\DonatorMenu.jsx:127
-#: src\components\windows\DonatorMenu.jsx:132
-#: src\components\windows\DonatorMenu.jsx:140
-#: src\components\windows\DonatorMenu.jsx:141
-msgid "Immunity from national mutes in the chat."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:36
-#: src\components\windows\DonatorMenu.jsx:40
-#: src\components\windows\DonatorMenu.jsx:43
-#: src\components\windows\DonatorMenu.jsx:46
-#: src\components\windows\DonatorMenu.jsx:53
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:83
-#: src\components\windows\DonatorMenu.jsx:84
-#: src\components\windows\DonatorMenu.jsx:85
-#: src\components\windows\DonatorMenu.jsx:87
-#: src\components\windows\DonatorMenu.jsx:93
-#: src\components\windows\DonatorMenu.jsx:95
-#: src\components\windows\DonatorMenu.jsx:96
-#: src\components\windows\DonatorMenu.jsx:101
-#: src\components\windows\DonatorMenu.jsx:102
-#: src\components\windows\DonatorMenu.jsx:123
-#: src\components\windows\DonatorMenu.jsx:128
-#: src\components\windows\DonatorMenu.jsx:133
-#: src\components\windows\DonatorMenu.jsx:141
-#: src\components\windows\DonatorMenu.jsx:142
-msgid ""
-"Exclusive chat channels, roles and name colors on the official Discord "
-"server."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:37
-#: src\components\windows\DonatorMenu.jsx:41
-#: src\components\windows\DonatorMenu.jsx:44
-#: src\components\windows\DonatorMenu.jsx:47
-#: src\components\windows\DonatorMenu.jsx:54
-#: src\components\windows\DonatorMenu.jsx:56
-#: src\components\windows\DonatorMenu.jsx:83
-#: src\components\windows\DonatorMenu.jsx:84
-#: src\components\windows\DonatorMenu.jsx:85
-#: src\components\windows\DonatorMenu.jsx:86
-#: src\components\windows\DonatorMenu.jsx:88
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:96
-#: src\components\windows\DonatorMenu.jsx:97
-#: src\components\windows\DonatorMenu.jsx:102
-#: src\components\windows\DonatorMenu.jsx:103
-#: src\components\windows\DonatorMenu.jsx:124
-#: src\components\windows\DonatorMenu.jsx:129
-#: src\components\windows\DonatorMenu.jsx:134
-#: src\components\windows\DonatorMenu.jsx:142
-#: src\components\windows\DonatorMenu.jsx:143
-msgid "Personalized technical support from the authorized team."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:41
-#: src\components\windows\DonatorMenu.jsx:45
-#: src\components\windows\DonatorMenu.jsx:48
-#: src\components\windows\DonatorMenu.jsx:51
-#: src\components\windows\DonatorMenu.jsx:58
-#: src\components\windows\DonatorMenu.jsx:60
-#: src\components\windows\DonatorMenu.jsx:87
-#: src\components\windows\DonatorMenu.jsx:88
-#: src\components\windows\DonatorMenu.jsx:89
-#: src\components\windows\DonatorMenu.jsx:90
-#: src\components\windows\DonatorMenu.jsx:92
-#: src\components\windows\DonatorMenu.jsx:98
-#: src\components\windows\DonatorMenu.jsx:100
-#: src\components\windows\DonatorMenu.jsx:101
-#: src\components\windows\DonatorMenu.jsx:106
-#: src\components\windows\DonatorMenu.jsx:107
-#: src\components\windows\DonatorMenu.jsx:128
-#: src\components\windows\DonatorMenu.jsx:133
-#: src\components\windows\DonatorMenu.jsx:138
-#: src\components\windows\DonatorMenu.jsx:146
-#: src\components\windows\DonatorMenu.jsx:147
-msgid "Monthly Pricing:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:49
-#: src\components\windows\DonatorMenu.jsx:50
-#: src\components\windows\DonatorMenu.jsx:52
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:56
-#: src\components\windows\DonatorMenu.jsx:63
-#: src\components\windows\DonatorMenu.jsx:65
-#: src\components\windows\DonatorMenu.jsx:92
-#: src\components\windows\DonatorMenu.jsx:93
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:95
-#: src\components\windows\DonatorMenu.jsx:97
-#: src\components\windows\DonatorMenu.jsx:103
-#: src\components\windows\DonatorMenu.jsx:105
-#: src\components\windows\DonatorMenu.jsx:106
-#: src\components\windows\DonatorMenu.jsx:107
-#: src\components\windows\DonatorMenu.jsx:112
-#: src\components\windows\DonatorMenu.jsx:113
-#: src\components\windows\DonatorMenu.jsx:134
-#: src\components\windows\DonatorMenu.jsx:139
-#: src\components\windows\DonatorMenu.jsx:144
-#: src\components\windows\DonatorMenu.jsx:152
-#: src\components\windows\DonatorMenu.jsx:153
-msgid "Click to purchase!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:23
-#: src\components\windows\DonatorMenu.jsx:29
-#: src\components\windows\DonatorMenu.jsx:30
-#: src\components\windows\DonatorMenu.jsx:32
-#: src\components\windows\DonatorMenu.jsx:40
-#: src\components\windows\DonatorMenu.jsx:41
-#: src\components\windows\DonatorMenu.jsx:42
-#: src\components\windows\DonatorMenu.jsx:43
-#: src\components\windows\DonatorMenu.jsx:44
-#: src\components\windows\DonatorMenu.jsx:45
-#: src\components\windows\DonatorMenu.jsx:48
-#: src\components\windows\DonatorMenu.jsx:49
-#: src\components\windows\DonatorMenu.jsx:50
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:56
-#: src\components\windows\DonatorMenu.jsx:61
-#: src\components\windows\DonatorMenu.jsx:62
-msgid "Back"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:56
-msgid "Buy for yourself"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:66
-#: src\components\windows\DonatorMenu.jsx:67
-msgid "Gift"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:73
-#: src\components\windows\DonatorMenu.jsx:74
-msgid "User ID"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:54
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:60
-#: src\components\windows\DonatorMenu.jsx:61
-#: src\components\windows\DonatorMenu.jsx:62
-#: src\components\windows\DonatorMenu.jsx:63
-#: src\components\windows\DonatorMenu.jsx:68
-#: src\components\windows\DonatorMenu.jsx:74
-#: src\components\windows\DonatorMenu.jsx:75
-msgid "1 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:66
-#: src\components\windows\DonatorMenu.jsx:71
-#: src\components\windows\DonatorMenu.jsx:72
-#: src\components\windows\DonatorMenu.jsx:73
-#: src\components\windows\DonatorMenu.jsx:75
-#: src\components\windows\DonatorMenu.jsx:80
-#: src\components\windows\DonatorMenu.jsx:86
-#: src\components\windows\DonatorMenu.jsx:87
-msgid "2 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:76
-#: src\components\windows\DonatorMenu.jsx:77
-#: src\components\windows\DonatorMenu.jsx:81
-#: src\components\windows\DonatorMenu.jsx:82
-#: src\components\windows\DonatorMenu.jsx:83
-#: src\components\windows\DonatorMenu.jsx:86
-#: src\components\windows\DonatorMenu.jsx:91
-#: src\components\windows\DonatorMenu.jsx:97
-#: src\components\windows\DonatorMenu.jsx:98
-msgid "3 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:107
-#: src\components\windows\DonatorMenu.jsx:112
-#: src\components\windows\DonatorMenu.jsx:113
-#: src\components\windows\DonatorMenu.jsx:134
-#: src\components\windows\DonatorMenu.jsx:139
-#: src\components\windows\DonatorMenu.jsx:144
-#: src\components\windows\DonatorMenu.jsx:152
-#: src\components\windows\DonatorMenu.jsx:153
-msgid "Login to purchase!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:86
-msgid "Pay"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:95
-#: src\components\windows\DonatorMenu.jsx:99
-#: src\components\windows\DonatorMenu.jsx:104
-#: src\components\windows\DonatorMenu.jsx:110
-#: src\components\windows\DonatorMenu.jsx:111
-msgid "Visa"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:104
-#: src\components\windows\DonatorMenu.jsx:109
-#: src\components\windows\DonatorMenu.jsx:114
-#: src\components\windows\DonatorMenu.jsx:121
-#: src\components\windows\DonatorMenu.jsx:122
-msgid "Paypal"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:86
-#: src\components\windows\DonatorMenu.jsx:89
-#: src\components\windows\DonatorMenu.jsx:94
-#: src\components\windows\DonatorMenu.jsx:100
-#: src\components\windows\DonatorMenu.jsx:101
-msgid "Pay with"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:123
-#: src\components\windows\DonatorMenu.jsx:124
-msgid "Next"
 msgstr ""
 
 #: src\components\windows\Help.jsx:15

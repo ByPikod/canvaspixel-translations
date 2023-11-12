@@ -81,22 +81,6 @@ msgstr ""
 msgid "Invalid url :( Please check your mail again."
 msgstr ""
 
-#: src\ssr\Globe.jsx:32
-msgid "CanvasPixel - 3DGlobe"
-msgstr ""
-
-#: src\ssr\Globe.jsx:33
-msgid "A 3D globe of our whole map"
-msgstr ""
-
-#: src\ssr\Globe.jsx:46
-msgid "Double click on globe to go back."
-msgstr ""
-
-#: src\ssr\Globe.jsx:47
-msgid "Loading..."
-msgstr ""
-
 #: src\ssr\PopUp.jsx:58
 msgid "ppfun"
 msgstr ""
@@ -111,6 +95,22 @@ msgstr ""
 
 #: src\ssr\Main.jsx:70
 msgid "Place color pixels on an map styled canvas with other players online"
+msgstr ""
+
+#: src\ssr\Globe.jsx:32
+msgid "CanvasPixel - 3DGlobe"
+msgstr ""
+
+#: src\ssr\Globe.jsx:33
+msgid "A 3D globe of our whole map"
+msgstr ""
+
+#: src\ssr\Globe.jsx:46
+msgid "Double click on globe to go back."
+msgstr ""
+
+#: src\ssr\Globe.jsx:47
+msgid "Loading..."
 msgstr ""
 
 #: src\utils\validation.js:17
@@ -219,6 +219,31 @@ msgstr ""
 msgid "You are not banned"
 msgstr ""
 
+#: src\routes\api\auth\logout.js:11
+msgid "You are not even logged in."
+msgstr ""
+
+#: src\routes\api\auth\delete_account.js:65
+#: src\routes\api\auth\logout.js:20
+msgid "Server error when logging out."
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:44
+#: src\routes\api\auth\change_passwd.js:34
+#: src\routes\api\auth\delete_account.js:36
+msgid "You are not authenticated."
+msgstr ""
+
+#: src\routes\api\auth\delete_account.js:46
+msgid "Muted users can not delete their account."
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:53
+#: src\routes\api\auth\change_passwd.js:43
+#: src\routes\api\auth\delete_account.js:55
+msgid "Incorrect password!"
+msgstr ""
+
 #: src\routes\api\auth\change_mail.js:22
 #: src\routes\api\auth\register.js:24
 msgid "This email provider is not allowed"
@@ -256,6 +281,10 @@ msgstr ""
 msgid "Failed to establish session after register :("
 msgstr ""
 
+#: src\routes\api\auth\change_mail.js:62
+msgid "Muted users can not do this."
+msgstr ""
+
 #: src\routes\api\auth\verify.js:26
 #: src\routes\api\auth\verify.js:35
 msgid "Mail verification"
@@ -271,33 +300,17 @@ msgid ""
 "request a new one."
 msgstr ""
 
-#: src\routes\api\auth\logout.js:11
-msgid "You are not even logged in."
+#: src\ssr\RedirectionPage.jsx:19
+msgid "CanvasPixel - Accounts"
 msgstr ""
 
-#: src\routes\api\auth\delete_account.js:65
-#: src\routes\api\auth\logout.js:20
-msgid "Server error when logging out."
+#: src\ssr\RedirectionPage.jsx:29
+msgid "You will be automatically redirected after 15s"
 msgstr ""
 
-#: src\routes\api\auth\change_mail.js:44
-#: src\routes\api\auth\change_passwd.js:34
-#: src\routes\api\auth\delete_account.js:36
-msgid "You are not authenticated."
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:53
-#: src\routes\api\auth\change_passwd.js:43
-#: src\routes\api\auth\delete_account.js:55
-msgid "Incorrect password!"
-msgstr ""
-
-#: src\routes\api\auth\delete_account.js:46
-msgid "Muted users can not delete their account."
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:62
-msgid "Muted users can not do this."
+#: src\ssr\RedirectionPage.jsx:30
+#, javascript-format
+msgid "Or ${ clickHere } to go back to CanvasPixel"
 msgstr ""
 
 #: src\canvasesDesc.js:19
@@ -372,25 +385,12 @@ msgstr ""
 msgid "Copy of r/place canvas."
 msgstr ""
 
-#: src\ssr\RedirectionPage.jsx:19
-msgid "CanvasPixel - Accounts"
-msgstr ""
-
-#: src\ssr\RedirectionPage.jsx:29
-msgid "You will be automatically redirected after 15s"
-msgstr ""
-
-#: src\ssr\RedirectionPage.jsx:30
-#, javascript-format
-msgid "Or ${ clickHere } to go back to CanvasPixel"
-msgstr ""
-
 #: src\core\MailProvider.js:79
+#, javascript-format
 msgid "Welcome ${ name } to CanvasPixel, please verify your mail"
 msgstr ""
 
 #: src\core\MailProvider.js:80
-#, javascript-format
 msgid "Hello ${ name }"
 msgstr ""
 

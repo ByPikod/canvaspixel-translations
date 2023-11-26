@@ -219,21 +219,6 @@ msgstr ""
 msgid "You are not banned"
 msgstr ""
 
-#: src\routes\api\auth\verify.js:26
-#: src\routes\api\auth\verify.js:35
-msgid "Mail verification"
-msgstr ""
-
-#: src\routes\api\auth\verify.js:27
-msgid "You are now verified :)"
-msgstr ""
-
-#: src\routes\api\auth\verify.js:35
-msgid ""
-"Your mail verification code is invalid or already expired :(, please "
-"request a new one."
-msgstr ""
-
 #: src\routes\api\auth\logout.js:11
 msgid "You are not even logged in."
 msgstr ""
@@ -255,6 +240,10 @@ msgstr ""
 msgid "Incorrect password!"
 msgstr ""
 
+#: src\routes\api\auth\delete_account.js:46
+msgid "Muted users can not delete their account."
+msgstr ""
+
 #: src\routes\api\auth\change_mail.js:22
 #: src\routes\api\auth\register.js:24
 msgid "This email provider is not allowed"
@@ -264,8 +253,19 @@ msgstr ""
 msgid "Muted users can not do this."
 msgstr ""
 
-#: src\routes\api\auth\delete_account.js:46
-msgid "Muted users can not delete their account."
+#: src\routes\api\auth\verify.js:26
+#: src\routes\api\auth\verify.js:35
+msgid "Mail verification"
+msgstr ""
+
+#: src\routes\api\auth\verify.js:27
+msgid "You are now verified :)"
+msgstr ""
+
+#: src\routes\api\auth\verify.js:35
+msgid ""
+"Your mail verification code is invalid or already expired :(, please "
+"request a new one."
 msgstr ""
 
 #: src\routes\api\auth\register.js:31

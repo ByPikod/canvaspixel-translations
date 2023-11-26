@@ -212,22 +212,6 @@ msgstr ""
 msgid "Server answered with gibberish :("
 msgstr ""
 
-#: src\store\middleware\notifications.js:33
-msgid "Your next pixels are ready"
-msgstr ""
-
-#: src\store\middleware\notifications.js:37
-msgid "You can now place more on canvaspixel.net :)"
-msgstr ""
-
-#: src\store\middleware\notifications.js:54
-msgid "mentioned you"
-msgstr ""
-
-#: src\store\middleware\notifications.js:58
-msgid "You have new messages in chat"
-msgstr ""
-
 #: src\components\Converter.jsx:565
 #: src\components\CoordinatesBox.jsx:31
 #: src\components\ModWatchtools.jsx:378
@@ -245,6 +229,22 @@ msgstr ""
 
 #: src\components\OnlineBox.jsx:55
 msgid "Pixels placed"
+msgstr ""
+
+#: src\store\middleware\notifications.js:33
+msgid "Your next pixels are ready"
+msgstr ""
+
+#: src\store\middleware\notifications.js:37
+msgid "You can now place more on canvaspixel.net :)"
+msgstr ""
+
+#: src\store\middleware\notifications.js:54
+msgid "mentioned you"
+msgstr ""
+
+#: src\store\middleware\notifications.js:58
+msgid "You have new messages in chat"
 msgstr ""
 
 #: src\components\buttons\CanvasSwitchButton.jsx:20
@@ -279,58 +279,34 @@ msgstr ""
 #: src\components\Admintools.jsx:156
 #: src\components\ModCanvastools.jsx:222
 #: src\components\ModWatchtools.jsx:120
-#: src\components\Window.jsx:157
-#: src\components\Window.jsx:260
+#: src\components\Window.jsx:159
+#: src\components\Window.jsx:264
 #: src\components\contextmenus\ChannelContextMenu.jsx:59
 msgid "Close"
 msgstr ""
 
-#: src\components\Window.jsx:173
+#: src\components\Window.jsx:175
 msgid "PopUp"
 msgstr ""
 
-#: src\components\Window.jsx:184
+#: src\components\Window.jsx:186
 msgid "Restore"
 msgstr ""
 
-#: src\components\Window.jsx:221
+#: src\components\Window.jsx:225
 msgid "Clone"
 msgstr ""
 
-#: src\components\Window.jsx:229
+#: src\components\Window.jsx:233
 msgid "Move"
 msgstr ""
 
-#: src\components\Window.jsx:252
+#: src\components\Window.jsx:256
 msgid "Maximize"
 msgstr ""
 
-#: src\components\Window.jsx:268
+#: src\components\Window.jsx:272
 msgid "Resize"
-msgstr ""
-
-#: src\components\BanInfo.jsx:75
-#: src\components\buttons\HelpButton.jsx:20
-#: src\components\windows\index.js:14
-msgid "Help"
-msgstr ""
-
-#: src\components\buttons\SettingsButton.jsx:21
-#: src\components\windows\index.js:16
-msgid "Settings"
-msgstr ""
-
-#: src\components\buttons\DonatorButton.jsx:20
-msgid "Donator"
-msgstr ""
-
-#: src\components\buttons\LogInButton.jsx:20
-#: src\components\windows\index.js:17
-msgid "User Area"
-msgstr ""
-
-#: src\components\buttons\DownloadButton.jsx:36
-msgid "Make Screenshot"
 msgstr ""
 
 #: src\components\buttons\GlobeButton.jsx:34
@@ -343,6 +319,30 @@ msgstr ""
 
 #: src\components\buttons\PalselButton.jsx:30
 msgid "Open Palette"
+msgstr ""
+
+#: src\components\buttons\SettingsButton.jsx:21
+#: src\components\windows\index.js:16
+msgid "Settings"
+msgstr ""
+
+#: src\components\BanInfo.jsx:75
+#: src\components\buttons\HelpButton.jsx:20
+#: src\components\windows\index.js:14
+msgid "Help"
+msgstr ""
+
+#: src\components\buttons\DonatorButton.jsx:20
+msgid "Donator"
+msgstr ""
+
+#: src\components\buttons\DownloadButton.jsx:36
+msgid "Make Screenshot"
+msgstr ""
+
+#: src\components\buttons\LogInButton.jsx:20
+#: src\components\windows\index.js:17
+msgid "User Area"
 msgstr ""
 
 #: src\components\windows\index.js:15
@@ -452,85 +452,6 @@ msgstr ""
 
 #: src\components\BanInfo.jsx:127
 msgid "Why?"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:61
-msgid "Back"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:74
-msgid "1 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:86
-msgid "2 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:97
-msgid "3 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:100
-msgid "Pay with"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:110
-msgid "Visa"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:121
-msgid "Paypal"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:123
-msgid "Next"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:133
-msgid ""
-"CanvasPixel needs donations to provide a free pixel gaming service. That's "
-"why we are introducing a special paid membership program for our donors!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:136
-msgid ""
-"Players with the Premium Membership we mentioned will enjoy the following "
-"advantages:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:138
-msgid "50% reduced pixel placement cooldown."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:139
-msgid "Diamond icon in the chat instead of your country's flag."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:140
-msgid "Immunity from national mutes in the chat."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:141
-msgid ""
-"Exclusive chat channels, roles and name colors on the official Discord "
-"server."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:142
-msgid "Personalized technical support from the authorized team."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:146
-msgid "Monthly Pricing:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:152
-msgid "Login to purchase!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:152
-msgid "Click to purchase!"
 msgstr ""
 
 #: src\components\windows\Help.jsx:43
@@ -702,6 +623,143 @@ msgstr ""
 msgid "Credit for the Palette of the Top10 canvas goes to ${ vinikLink }."
 msgstr ""
 
+#: src\components\windows\UserArea.jsx:36
+#: src\components\windows\UserArea.jsx:56
+msgid "Profile"
+msgstr ""
+
+#: src\components\windows\UserArea.jsx:59
+msgid "Statistics"
+msgstr ""
+
+#: src\components\windows\UserArea.jsx:64
+msgid "Converter"
+msgstr ""
+
+#: src\components\windows\UserArea.jsx:70
+msgid "Modtools"
+msgstr ""
+
+#: src\components\windows\UserArea.jsx:71
+msgid "Loading..."
+msgstr ""
+
+#: src\components\windows\UserArea.jsx:78
+msgid "Consider joining us on Discord:"
+msgstr ""
+
+#: src\components\windows\Register.jsx:87
+msgid "Register new account here"
+msgstr ""
+
+#: src\components\windows\Register.jsx:92
+#: src\components\windows\Register.jsx:98
+msgid "Name"
+msgstr ""
+
+#: src\components\windows\ForgotPassword.jsx:80
+#: src\components\windows\Register.jsx:100
+#: src\components\windows\Register.jsx:106
+msgid "Email"
+msgstr ""
+
+#: src\components\ChangeMail.jsx:80
+#: src\components\DeleteAccount.jsx:62
+#: src\components\LogInForm.jsx:84
+#: src\components\windows\Register.jsx:108
+#: src\components\windows\Register.jsx:114
+msgid "Password"
+msgstr ""
+
+#: src\components\windows\Register.jsx:116
+#: src\components\windows\Register.jsx:122
+msgid "Confirm Password"
+msgstr ""
+
+#: src\components\windows\Register.jsx:124
+msgid "Captcha"
+msgstr ""
+
+#: src\components\Admintools.jsx:288
+#: src\components\Admintools.jsx:372
+#: src\components\ModCanvastools.jsx:302
+#: src\components\ModCanvastools.jsx:382
+#: src\components\ModCanvastools.jsx:455
+#: src\components\ModCanvastools.jsx:546
+#: src\components\ModIIDtools.jsx:135
+#: src\components\windows\ForgotPassword.jsx:84
+#: src\components\windows\Register.jsx:127
+msgid "Submit"
+msgstr ""
+
+#: src\components\windows\CanvasSelect.jsx:29
+msgid ""
+"Select the canvas you want to use.  Every canvas is unique and has "
+"different palettes, cooldown and requirements.  Archive of closed canvases "
+"can be accessed here:"
+msgstr ""
+
+#: src\components\windows\CanvasSelect.jsx:37
+msgid "Archive"
+msgstr ""
+
+#: src\components\windows\Chat.jsx:181
+msgid "Start chatting here"
+msgstr ""
+
+#: src\components\windows\Chat.jsx:224
+msgid "Chat here"
+msgstr ""
+
+#: src\components\windows\Chat.jsx:250
+msgid "You must be logged in to chat"
+msgstr ""
+
+#: src\components\windows\Chat.jsx:275
+msgid "Channel settings"
+msgstr ""
+
+#: src\components\windows\Archive.jsx:16
+msgid ""
+"While we tend to not delete canvases, some canvases are started for fun or "
+"as a request by users who currently like a meme. Those canvases can get "
+"boring after a while and after weeks of no major change and if they really "
+"aren't worth being kept active, we decide to remove them."
+msgstr ""
+
+#: src\components\windows\Archive.jsx:18
+msgid ""
+"Here we collect those canvases to archive them in a proper way (which is "
+"currently just one)."
+msgstr ""
+
+#: src\components\windows\Archive.jsx:20
+msgid "Political Compass Canvas"
+msgstr ""
+
+#: src\components\windows\Archive.jsx:27
+msgid ""
+"This canvas got requested during a time of political conflicts on the main "
+"Earth canvas. It was a 1024x1024 representation of the political compass "
+"with a 5s cooldown and 60s stacking. It got launched on May 11th and "
+"remained active for months till it got shut down on November 30th."
+msgstr ""
+
+#: src\components\windows\Archive.jsx:28
+msgid ""
+"We decided to archive it as a timelapse with lossless encoded webm. Taking "
+"a screenshot from the timelapse results in a perfect 1:1 representation of "
+"how the canvas was at that time."
+msgstr ""
+
+#: src\components\windows\ForgotPassword.jsx:58
+msgid "Sent you a mail with instructions to reset your password."
+msgstr ""
+
+#: src\components\windows\ForgotPassword.jsx:69
+msgid "Enter your mail address and we will send you a new password:"
+msgstr ""
+
 #: src\components\windows\Settings.jsx:86
 msgid "Show Grid"
 msgstr ""
@@ -795,141 +853,83 @@ msgstr ""
 msgid "Select Language"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:36
-#: src\components\windows\UserArea.jsx:56
-msgid "Profile"
+#: src\components\windows\DonatorMenu.jsx:55
+#: src\components\windows\DonatorMenu.jsx:61
+msgid "Back"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:59
-msgid "Statistics"
+#: src\components\windows\DonatorMenu.jsx:74
+msgid "1 Month"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:64
-msgid "Converter"
+#: src\components\windows\DonatorMenu.jsx:86
+msgid "2 Month"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:70
-msgid "Modtools"
+#: src\components\windows\DonatorMenu.jsx:97
+msgid "3 Month"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:71
-msgid "Loading..."
+#: src\components\windows\DonatorMenu.jsx:100
+msgid "Pay with"
 msgstr ""
 
-#: src\components\windows\UserArea.jsx:78
-msgid "Consider joining us on Discord:"
+#: src\components\windows\DonatorMenu.jsx:110
+msgid "Visa"
 msgstr ""
 
-#: src\components\windows\Register.jsx:87
-msgid "Register new account here"
+#: src\components\windows\DonatorMenu.jsx:121
+msgid "Paypal"
 msgstr ""
 
-#: src\components\windows\Register.jsx:92
-#: src\components\windows\Register.jsx:98
-msgid "Name"
+#: src\components\windows\DonatorMenu.jsx:123
+msgid "Next"
 msgstr ""
 
-#: src\components\windows\ForgotPassword.jsx:80
-#: src\components\windows\Register.jsx:100
-#: src\components\windows\Register.jsx:106
-msgid "Email"
-msgstr ""
-
-#: src\components\ChangeMail.jsx:80
-#: src\components\DeleteAccount.jsx:62
-#: src\components\LogInForm.jsx:84
-#: src\components\windows\Register.jsx:108
-#: src\components\windows\Register.jsx:114
-msgid "Password"
-msgstr ""
-
-#: src\components\windows\Register.jsx:116
-#: src\components\windows\Register.jsx:122
-msgid "Confirm Password"
-msgstr ""
-
-#: src\components\windows\Register.jsx:124
-msgid "Captcha"
-msgstr ""
-
-#: src\components\Admintools.jsx:288
-#: src\components\Admintools.jsx:372
-#: src\components\ModCanvastools.jsx:302
-#: src\components\ModCanvastools.jsx:382
-#: src\components\ModCanvastools.jsx:455
-#: src\components\ModCanvastools.jsx:546
-#: src\components\ModIIDtools.jsx:135
-#: src\components\windows\ForgotPassword.jsx:84
-#: src\components\windows\Register.jsx:127
-msgid "Submit"
-msgstr ""
-
-#: src\components\windows\Archive.jsx:16
+#: src\components\windows\DonatorMenu.jsx:133
 msgid ""
-"While we tend to not delete canvases, some canvases are started for fun or "
-"as a request by users who currently like a meme. Those canvases can get "
-"boring after a while and after weeks of no major change and if they really "
-"aren't worth being kept active, we decide to remove them."
+"CanvasPixel needs donations to provide a free pixel gaming service. That's "
+"why we are introducing a special paid membership program for our donors!"
 msgstr ""
 
-#: src\components\windows\Archive.jsx:18
+#: src\components\windows\DonatorMenu.jsx:136
 msgid ""
-"Here we collect those canvases to archive them in a proper way (which is "
-"currently just one)."
+"Players with the Premium Membership we mentioned will enjoy the following "
+"advantages:"
 msgstr ""
 
-#: src\components\windows\Archive.jsx:20
-msgid "Political Compass Canvas"
+#: src\components\windows\DonatorMenu.jsx:138
+msgid "50% reduced pixel placement cooldown."
 msgstr ""
 
-#: src\components\windows\Archive.jsx:27
+#: src\components\windows\DonatorMenu.jsx:139
+msgid "Diamond icon in the chat instead of your country's flag."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:140
+msgid "Immunity from national mutes in the chat."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:141
 msgid ""
-"This canvas got requested during a time of political conflicts on the main "
-"Earth canvas. It was a 1024x1024 representation of the political compass "
-"with a 5s cooldown and 60s stacking. It got launched on May 11th and "
-"remained active for months till it got shut down on November 30th."
+"Exclusive chat channels, roles and name colors on the official Discord "
+"server."
 msgstr ""
 
-#: src\components\windows\Archive.jsx:28
-msgid ""
-"We decided to archive it as a timelapse with lossless encoded webm. Taking "
-"a screenshot from the timelapse results in a perfect 1:1 representation of "
-"how the canvas was at that time."
+#: src\components\windows\DonatorMenu.jsx:142
+msgid "Personalized technical support from the authorized team."
 msgstr ""
 
-#: src\components\windows\CanvasSelect.jsx:29
-msgid ""
-"Select the canvas you want to use.  Every canvas is unique and has "
-"different palettes, cooldown and requirements.  Archive of closed canvases "
-"can be accessed here:"
+#: src\components\windows\DonatorMenu.jsx:146
+msgid "Monthly Pricing:"
 msgstr ""
 
-#: src\components\windows\CanvasSelect.jsx:37
-msgid "Archive"
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Login to purchase!"
 msgstr ""
 
-#: src\components\windows\Chat.jsx:180
-msgid "Start chatting here"
-msgstr ""
-
-#: src\components\windows\Chat.jsx:217
-msgid "Chat here"
-msgstr ""
-
-#: src\components\windows\Chat.jsx:243
-msgid "You must be logged in to chat"
-msgstr ""
-
-#: src\components\windows\Chat.jsx:273
-msgid "Channel settings"
-msgstr ""
-
-#: src\components\windows\ForgotPassword.jsx:58
-msgid "Sent you a mail with instructions to reset your password."
-msgstr ""
-
-#: src\components\windows\ForgotPassword.jsx:69
-msgid "Enter your mail address and we will send you a new password:"
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Click to purchase!"
 msgstr ""
 
 #: src\components\Captcha.jsx:51
@@ -1172,40 +1172,6 @@ msgstr ""
 msgid "Download Template"
 msgstr ""
 
-#: src\components\Rankings.jsx:147
-msgid "Total"
-msgstr ""
-
-#: src\components\Rankings.jsx:156
-msgid "Today"
-msgstr ""
-
-#: src\components\Rankings.jsx:165
-msgid "Yesterday"
-msgstr ""
-
-#: src\components\Rankings.jsx:174
-msgid "Countries Today"
-msgstr ""
-
-#: src\components\Rankings.jsx:183
-msgid "Charts"
-msgstr ""
-
-#: src\components\Rankings.jsx:201
-#: src\components\Rankings.jsx:210
-#: src\components\Rankings.jsx:219
-msgid "User"
-msgstr ""
-
-#: src\components\Rankings.jsx:226
-msgid "Country"
-msgstr ""
-
-#: src\components\Rankings.jsx:286
-msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
-msgstr ""
-
 #: src\components\CanvasItem.jsx:29
 msgid "Online Users"
 msgstr ""
@@ -1251,6 +1217,40 @@ msgstr ""
 msgid "Dimensions"
 msgstr ""
 
+#: src\components\Rankings.jsx:147
+msgid "Total"
+msgstr ""
+
+#: src\components\Rankings.jsx:156
+msgid "Today"
+msgstr ""
+
+#: src\components\Rankings.jsx:165
+msgid "Yesterday"
+msgstr ""
+
+#: src\components\Rankings.jsx:174
+msgid "Countries Today"
+msgstr ""
+
+#: src\components\Rankings.jsx:183
+msgid "Charts"
+msgstr ""
+
+#: src\components\Rankings.jsx:201
+#: src\components\Rankings.jsx:210
+#: src\components\Rankings.jsx:219
+msgid "User"
+msgstr ""
+
+#: src\components\Rankings.jsx:226
+msgid "Country"
+msgstr ""
+
+#: src\components\Rankings.jsx:286
+msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
+msgstr ""
+
 #: src\components\ChangeMail.jsx:91
 #: src\components\ChangeName.jsx:68
 #: src\components\ChangePassword.jsx:109
@@ -1278,6 +1278,14 @@ msgstr ""
 msgid "Total Pixels placed per day"
 msgstr ""
 
+#: src\components\LogInForm.jsx:77
+msgid "Name or Email"
+msgstr ""
+
+#: src\components\LogInForm.jsx:88
+msgid "LogIn"
+msgstr ""
+
 #: src\components\UserMessages.jsx:28
 msgid ""
 "Please verify your mail address or your account could get deleted after a "
@@ -1290,10 +1298,6 @@ msgstr ""
 
 #: src\components\UserMessages.jsx:53
 msgid "Click here to request a new verification mail."
-msgstr ""
-
-#: src\components\ChangeName.jsx:64
-msgid "New Username"
 msgstr ""
 
 #: src\components\ChangePassword.jsx:21
@@ -1314,6 +1318,10 @@ msgstr ""
 
 #: src\components\ChangePassword.jsx:103
 msgid "Confirm New Password"
+msgstr ""
+
+#: src\components\ChangeName.jsx:64
+msgid "New Username"
 msgstr ""
 
 #: src\components\ChangeMail.jsx:59
@@ -1352,64 +1360,6 @@ msgstr ""
 
 #: src\components\SocialSettings.jsx:82
 msgid "You have no users blocked"
-msgstr ""
-
-#: src\components\Admintools.jsx:162
-msgid "Announcement"
-msgstr ""
-
-#: src\components\Admintools.jsx:172
-#: src\components\Admintools.jsx:194
-msgid "Receiver"
-msgstr ""
-
-#: src\components\Admintools.jsx:189
-msgid "Receiver User"
-msgstr ""
-
-#: src\components\Admintools.jsx:234
-#, javascript-format
-msgid "Announce received by ${ body.totalReceiver } people."
-msgstr ""
-
-#: src\components\Admintools.jsx:236
-msgid "Something went wrong while announcing!"
-msgstr ""
-
-#: src\components\Admintools.jsx:239
-msgid "Announce"
-msgstr ""
-
-#: src\components\Admintools.jsx:243
-msgid "IP Actions"
-msgstr ""
-
-#: src\components\Admintools.jsx:245
-msgid "Do stuff with IPs (one IP per line)"
-msgstr ""
-
-#: src\components\Admintools.jsx:292
-msgid "Manage Moderators"
-msgstr ""
-
-#: src\components\Admintools.jsx:294
-msgid "Remove Moderator"
-msgstr ""
-
-#: src\components\Admintools.jsx:327
-msgid "There are no mods"
-msgstr ""
-
-#: src\components\Admintools.jsx:332
-msgid "Assign new Mod"
-msgstr ""
-
-#: src\components\Admintools.jsx:335
-msgid "Enter UserName of new Mod"
-msgstr ""
-
-#: src\components\Admintools.jsx:344
-msgid "User Name"
 msgstr ""
 
 #: src\components\ModCanvastools.jsx:168
@@ -1505,6 +1455,64 @@ msgstr ""
 msgid "Stop Cleaner"
 msgstr ""
 
+#: src\components\Admintools.jsx:162
+msgid "Announcement"
+msgstr ""
+
+#: src\components\Admintools.jsx:172
+#: src\components\Admintools.jsx:194
+msgid "Receiver"
+msgstr ""
+
+#: src\components\Admintools.jsx:189
+msgid "Receiver User"
+msgstr ""
+
+#: src\components\Admintools.jsx:234
+#, javascript-format
+msgid "Announce received by ${ body.totalReceiver } people."
+msgstr ""
+
+#: src\components\Admintools.jsx:236
+msgid "Something went wrong while announcing!"
+msgstr ""
+
+#: src\components\Admintools.jsx:239
+msgid "Announce"
+msgstr ""
+
+#: src\components\Admintools.jsx:243
+msgid "IP Actions"
+msgstr ""
+
+#: src\components\Admintools.jsx:245
+msgid "Do stuff with IPs (one IP per line)"
+msgstr ""
+
+#: src\components\Admintools.jsx:292
+msgid "Manage Moderators"
+msgstr ""
+
+#: src\components\Admintools.jsx:294
+msgid "Remove Moderator"
+msgstr ""
+
+#: src\components\Admintools.jsx:327
+msgid "There are no mods"
+msgstr ""
+
+#: src\components\Admintools.jsx:332
+msgid "Assign new Mod"
+msgstr ""
+
+#: src\components\Admintools.jsx:335
+msgid "Enter UserName of new Mod"
+msgstr ""
+
+#: src\components\Admintools.jsx:344
+msgid "User Name"
+msgstr ""
+
 #: src\components\ModWatchtools.jsx:48
 msgid "Interval is invalid"
 msgstr ""
@@ -1553,14 +1561,6 @@ msgstr ""
 msgid "(0 = infinite)"
 msgstr ""
 
-#: src\components\LogInForm.jsx:77
-msgid "Name or Email"
-msgstr ""
-
-#: src\components\LogInForm.jsx:88
-msgid "LogIn"
-msgstr ""
-
 #: src\components\contextmenus\UserContextMenu.jsx:49
 msgid "Ping"
 msgstr ""
@@ -1575,6 +1575,14 @@ msgstr ""
 
 #: src\components\contextmenus\ChannelContextMenu.jsx:46
 msgid "Mute"
+msgstr ""
+
+#: src\components\buttons\PenButton.jsx:20
+#: src\components\buttons\PenButton.jsx:23
+#: src\components\buttons\PenButton.jsx:29
+#: src\components\buttons\PenButton.jsx:30
+#: src\components\buttons\PenButton.jsx:31
+msgid "Pen"
 msgstr ""
 
 #: src\components\windows\Help.jsx:15

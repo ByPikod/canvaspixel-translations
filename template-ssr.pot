@@ -3,57 +3,57 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: src\core\ChatProvider.js:478
+#: src\core\ChatProvider.js:479
 msgid "You can not send chat messages with proxy"
 msgstr ""
 
-#: src\core\ChatProvider.js:480
+#: src\core\ChatProvider.js:481
 msgid "Your country is temporary muted from this chat channel"
 msgstr ""
 
-#: src\core\ChatProvider.js:483
+#: src\core\ChatProvider.js:484
 msgid "You are permanently muted, join our guilded to appeal the mute"
 msgstr ""
 
-#: src\core\ChatProvider.js:485
+#: src\core\ChatProvider.js:486
 msgid "You are banned"
 msgstr ""
 
-#: src\core\ChatProvider.js:487
+#: src\core\ChatProvider.js:488
 msgid "Your Internet Provider is banned"
 msgstr ""
 
-#: src\core\ChatProvider.js:492
+#: src\core\ChatProvider.js:493
 #, javascript-format
 msgid "You are muted for another ${ timeMin } minutes"
 msgstr ""
 
-#: src\core\ChatProvider.js:494
+#: src\core\ChatProvider.js:495
 msgid "You are muted for another ${ ttl } seconds"
 msgstr ""
 
-#: src\core\ChatProvider.js:512
+#: src\core\ChatProvider.js:513
 #, javascript-format
 msgid "You are sending messages too fast, you have to wait ${ waitTime }s :("
 msgstr ""
 
-#: src\core\ChatProvider.js:516
+#: src\core\ChatProvider.js:517
 msgid "You don't have access to this channel"
 msgstr ""
 
-#: src\core\ChatProvider.js:539
+#: src\core\ChatProvider.js:540
 msgid "Your mail has to be verified in order to chat"
 msgstr ""
 
-#: src\core\ChatProvider.js:549
+#: src\core\ChatProvider.js:550
 msgid "You can't send a message this long :("
 msgstr ""
 
-#: src\core\ChatProvider.js:553
+#: src\core\ChatProvider.js:554
 msgid "Please use int channel"
 msgstr ""
 
-#: src\core\ChatProvider.js:561
+#: src\core\ChatProvider.js:562
 msgid "Stop flooding."
 msgstr ""
 
@@ -81,6 +81,14 @@ msgstr ""
 msgid "Invalid url :( Please check your mail again."
 msgstr ""
 
+#: src\ssr\PopUp.jsx:58
+msgid "ppfun"
+msgstr ""
+
+#: src\ssr\PopUp.jsx:59
+msgid "CanvasPixel - PopUp"
+msgstr ""
+
 #: src\ssr\Globe.jsx:32
 msgid "CanvasPixel - 3DGlobe"
 msgstr ""
@@ -103,14 +111,6 @@ msgstr ""
 
 #: src\ssr\Main.jsx:70
 msgid "Place color pixels on an map styled canvas with other players online"
-msgstr ""
-
-#: src\ssr\PopUp.jsx:58
-msgid "ppfun"
-msgstr ""
-
-#: src\ssr\PopUp.jsx:59
-msgid "CanvasPixel - PopUp"
 msgstr ""
 
 #: src\utils\validation.js:17
@@ -219,40 +219,6 @@ msgstr ""
 msgid "You are not banned"
 msgstr ""
 
-#: src\routes\api\auth\logout.js:11
-msgid "You are not even logged in."
-msgstr ""
-
-#: src\routes\api\auth\delete_account.js:65
-#: src\routes\api\auth\logout.js:20
-msgid "Server error when logging out."
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:44
-#: src\routes\api\auth\change_passwd.js:34
-#: src\routes\api\auth\delete_account.js:36
-msgid "You are not authenticated."
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:53
-#: src\routes\api\auth\change_passwd.js:43
-#: src\routes\api\auth\delete_account.js:55
-msgid "Incorrect password!"
-msgstr ""
-
-#: src\routes\api\auth\delete_account.js:46
-msgid "Muted users can not delete their account."
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:22
-#: src\routes\api\auth\register.js:24
-msgid "This email provider is not allowed"
-msgstr ""
-
-#: src\routes\api\auth\change_mail.js:62
-msgid "Muted users can not do this."
-msgstr ""
-
 #: src\routes\api\auth\verify.js:26
 #: src\routes\api\auth\verify.js:35
 msgid "Mail verification"
@@ -266,6 +232,20 @@ msgstr ""
 msgid ""
 "Your mail verification code is invalid or already expired :(, please "
 "request a new one."
+msgstr ""
+
+#: src\routes\api\auth\logout.js:11
+msgid "You are not even logged in."
+msgstr ""
+
+#: src\routes\api\auth\delete_account.js:65
+#: src\routes\api\auth\logout.js:20
+msgid "Server error when logging out."
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:22
+#: src\routes\api\auth\register.js:24
+msgid "This email provider is not allowed"
 msgstr ""
 
 #: src\routes\api\auth\register.js:31
@@ -298,6 +278,26 @@ msgstr ""
 
 #: src\routes\api\auth\register.js:105
 msgid "Failed to establish session after register :("
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:44
+#: src\routes\api\auth\change_passwd.js:34
+#: src\routes\api\auth\delete_account.js:36
+msgid "You are not authenticated."
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:53
+#: src\routes\api\auth\change_passwd.js:43
+#: src\routes\api\auth\delete_account.js:55
+msgid "Incorrect password!"
+msgstr ""
+
+#: src\routes\api\auth\delete_account.js:46
+msgid "Muted users can not delete their account."
+msgstr ""
+
+#: src\routes\api\auth\change_mail.js:62
+msgid "Muted users can not do this."
 msgstr ""
 
 #: src\ssr\RedirectionPage.jsx:19

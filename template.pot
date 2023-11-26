@@ -46,6 +46,14 @@ msgstr ""
 msgid "Hide Hidden Canvases"
 msgstr ""
 
+#: src\ui\rendererFactory.js:30
+msgid "Canvas Error"
+msgstr ""
+
+#: src\ui\rendererFactory.js:31
+msgid "Can't render 3D canvas, do you have WebGL2 disabled?"
+msgstr ""
+
 #: src\ui\PixelTransferController.js:70
 msgid "Error :("
 msgstr ""
@@ -169,14 +177,6 @@ msgstr ""
 msgid "Error ${ retCode }"
 msgstr ""
 
-#: src\ui\rendererFactory.js:30
-msgid "Canvas Error"
-msgstr ""
-
-#: src\ui\rendererFactory.js:31
-msgid "Can't render 3D canvas, do you have WebGL2 disabled?"
-msgstr ""
-
 #: src\components\BanInfo.jsx:136
 #: src\store\actions\index.js:7
 msgid "OK"
@@ -247,17 +247,17 @@ msgstr ""
 msgid "Pixels placed"
 msgstr ""
 
+#: src\components\buttons\CanvasSwitchButton.jsx:20
+#: src\components\windows\index.js:21
+msgid "Canvas Selection"
+msgstr ""
+
 #: src\components\buttons\ChatButton.jsx:88
 msgid "Close Chat"
 msgstr ""
 
 #: src\components\buttons\ChatButton.jsx:88
 msgid "Open Chat"
-msgstr ""
-
-#: src\components\buttons\CanvasSwitchButton.jsx:20
-#: src\components\windows\index.js:21
-msgid "Canvas Selection"
 msgstr ""
 
 #: src\components\buttons\ExpandMenuButton.jsx:22
@@ -278,42 +278,6 @@ msgstr ""
 
 #: src\components\HistorySelect.jsx:145
 msgid "Select Date above"
-msgstr ""
-
-#: src\components\buttons\SettingsButton.jsx:21
-#: src\components\windows\index.js:16
-msgid "Settings"
-msgstr ""
-
-#: src\components\buttons\LogInButton.jsx:20
-#: src\components\windows\index.js:17
-msgid "User Area"
-msgstr ""
-
-#: src\components\buttons\GlobeButton.jsx:34
-msgid "Globe View"
-msgstr ""
-
-#: src\components\buttons\PalselButton.jsx:30
-msgid "Close Palette"
-msgstr ""
-
-#: src\components\buttons\PalselButton.jsx:30
-msgid "Open Palette"
-msgstr ""
-
-#: src\components\BanInfo.jsx:75
-#: src\components\buttons\HelpButton.jsx:20
-#: src\components\windows\index.js:14
-msgid "Help"
-msgstr ""
-
-#: src\components\buttons\DonatorButton.jsx:20
-msgid "Donator"
-msgstr ""
-
-#: src\components\buttons\DownloadButton.jsx:36
-msgid "Make Screenshot"
 msgstr ""
 
 #: src\components\Admintools.jsx:156
@@ -347,6 +311,42 @@ msgstr ""
 
 #: src\components\Window.jsx:272
 msgid "Resize"
+msgstr ""
+
+#: src\components\BanInfo.jsx:75
+#: src\components\buttons\HelpButton.jsx:20
+#: src\components\windows\index.js:14
+msgid "Help"
+msgstr ""
+
+#: src\components\buttons\DonatorButton.jsx:20
+msgid "Donator"
+msgstr ""
+
+#: src\components\buttons\SettingsButton.jsx:21
+#: src\components\windows\index.js:16
+msgid "Settings"
+msgstr ""
+
+#: src\components\buttons\LogInButton.jsx:20
+#: src\components\windows\index.js:17
+msgid "User Area"
+msgstr ""
+
+#: src\components\buttons\DownloadButton.jsx:36
+msgid "Make Screenshot"
+msgstr ""
+
+#: src\components\buttons\GlobeButton.jsx:34
+msgid "Globe View"
+msgstr ""
+
+#: src\components\buttons\PalselButton.jsx:30
+msgid "Close Palette"
+msgstr ""
+
+#: src\components\buttons\PalselButton.jsx:30
+msgid "Open Palette"
 msgstr ""
 
 #: src\components\windows\index.js:15
@@ -396,7 +396,7 @@ msgstr ""
 #: src\components\ChangePassword.jsx:79
 #: src\components\DeleteAccount.jsx:55
 #: src\components\GlobalCaptcha.jsx:71
-#: src\components\LogInForm.jsx:70
+#: src\components\LogInForm.jsx:71
 #: src\components\windows\ForgotPassword.jsx:73
 #: src\components\windows\Register.jsx:89
 msgid "Error"
@@ -456,6 +456,85 @@ msgstr ""
 
 #: src\components\BanInfo.jsx:127
 msgid "Why?"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:55
+#: src\components\windows\DonatorMenu.jsx:61
+msgid "Back"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:74
+msgid "1 Month"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:86
+msgid "2 Month"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:97
+msgid "3 Month"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:100
+msgid "Pay with"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:110
+msgid "Visa"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:121
+msgid "Paypal"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:123
+msgid "Next"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:133
+msgid ""
+"CanvasPixel needs donations to provide a free pixel gaming service. That's "
+"why we are introducing a special paid membership program for our donors!"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:136
+msgid ""
+"Players with the Premium Membership we mentioned will enjoy the following "
+"advantages:"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:138
+msgid "50% reduced pixel placement cooldown."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:139
+msgid "Diamond icon in the chat instead of your country's flag."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:140
+msgid "Immunity from national mutes in the chat."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:141
+msgid ""
+"Exclusive chat channels, roles and name colors on the official Discord "
+"server."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:142
+msgid "Personalized technical support from the authorized team."
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:146
+msgid "Monthly Pricing:"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Login to purchase!"
+msgstr ""
+
+#: src\components\windows\DonatorMenu.jsx:152
+msgid "Click to purchase!"
 msgstr ""
 
 #: src\components\windows\Help.jsx:43
@@ -627,6 +706,10 @@ msgstr ""
 msgid "Credit for the Palette of the Top10 canvas goes to ${ vinikLink }."
 msgstr ""
 
+#: src\components\windows\Help.jsx:100
+msgid "Thanks Epicureus for OG Badge!"
+msgstr ""
+
 #: src\components\windows\Settings.jsx:86
 msgid "Show Grid"
 msgstr ""
@@ -720,85 +803,6 @@ msgstr ""
 msgid "Select Language"
 msgstr ""
 
-#: src\components\windows\DonatorMenu.jsx:55
-#: src\components\windows\DonatorMenu.jsx:61
-msgid "Back"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:74
-msgid "1 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:86
-msgid "2 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:97
-msgid "3 Month"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:100
-msgid "Pay with"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:110
-msgid "Visa"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:121
-msgid "Paypal"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:123
-msgid "Next"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:133
-msgid ""
-"CanvasPixel needs donations to provide a free pixel gaming service. That's "
-"why we are introducing a special paid membership program for our donors!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:136
-msgid ""
-"Players with the Premium Membership we mentioned will enjoy the following "
-"advantages:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:138
-msgid "50% reduced pixel placement cooldown."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:139
-msgid "Diamond icon in the chat instead of your country's flag."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:140
-msgid "Immunity from national mutes in the chat."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:141
-msgid ""
-"Exclusive chat channels, roles and name colors on the official Discord "
-"server."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:142
-msgid "Personalized technical support from the authorized team."
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:146
-msgid "Monthly Pricing:"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:152
-msgid "Login to purchase!"
-msgstr ""
-
-#: src\components\windows\DonatorMenu.jsx:152
-msgid "Click to purchase!"
-msgstr ""
-
 #: src\components\windows\UserArea.jsx:36
 #: src\components\windows\UserArea.jsx:56
 msgid "Profile"
@@ -824,6 +828,17 @@ msgstr ""
 msgid "Consider joining us on Discord:"
 msgstr ""
 
+#: src\components\windows\CanvasSelect.jsx:29
+msgid ""
+"Select the canvas you want to use.  Every canvas is unique and has "
+"different palettes, cooldown and requirements.  Archive of closed canvases "
+"can be accessed here:"
+msgstr ""
+
+#: src\components\windows\CanvasSelect.jsx:37
+msgid "Archive"
+msgstr ""
+
 #: src\components\windows\Register.jsx:87
 msgid "Register new account here"
 msgstr ""
@@ -841,7 +856,7 @@ msgstr ""
 
 #: src\components\ChangeMail.jsx:80
 #: src\components\DeleteAccount.jsx:62
-#: src\components\LogInForm.jsx:84
+#: src\components\LogInForm.jsx:85
 #: src\components\windows\Register.jsx:108
 #: src\components\windows\Register.jsx:114
 msgid "Password"
@@ -866,17 +881,6 @@ msgstr ""
 #: src\components\windows\ForgotPassword.jsx:84
 #: src\components\windows\Register.jsx:127
 msgid "Submit"
-msgstr ""
-
-#: src\components\windows\CanvasSelect.jsx:29
-msgid ""
-"Select the canvas you want to use.  Every canvas is unique and has "
-"different palettes, cooldown and requirements.  Archive of closed canvases "
-"can be accessed here:"
-msgstr ""
-
-#: src\components\windows\CanvasSelect.jsx:37
-msgid "Archive"
 msgstr ""
 
 #: src\components\windows\Archive.jsx:16
@@ -936,39 +940,6 @@ msgstr ""
 msgid "Enter your mail address and we will send you a new password:"
 msgstr ""
 
-#: src\components\Captcha.jsx:51
-#: src\components\Captcha.jsx:105
-msgid "Could not load captcha"
-msgstr ""
-
-#: src\components\Captcha.jsx:69
-msgid "Type the characters from the following image:"
-msgstr ""
-
-#: src\components\Captcha.jsx:72
-msgid "Tip: Not case-sensitive; I and l are the same"
-msgstr ""
-
-#: src\components\Captcha.jsx:114
-msgid "Load Captcha"
-msgstr ""
-
-#: src\components\Captcha.jsx:119
-msgid "Click to Load Captcha"
-msgstr ""
-
-#: src\components\Captcha.jsx:124
-msgid "Can't read? Reload:"
-msgstr ""
-
-#: src\components\Captcha.jsx:128
-msgid "Reload"
-msgstr ""
-
-#: src\components\Captcha.jsx:138
-msgid "Enter Characters"
-msgstr ""
-
 #: src\utils\validation.js:17
 msgid "Email can't be empty."
 msgstr ""
@@ -1015,6 +986,39 @@ msgstr ""
 
 #: src\utils\validation.js:59
 msgid "Password must be shorter than 60 characters."
+msgstr ""
+
+#: src\components\Captcha.jsx:51
+#: src\components\Captcha.jsx:105
+msgid "Could not load captcha"
+msgstr ""
+
+#: src\components\Captcha.jsx:69
+msgid "Type the characters from the following image:"
+msgstr ""
+
+#: src\components\Captcha.jsx:72
+msgid "Tip: Not case-sensitive; I and l are the same"
+msgstr ""
+
+#: src\components\Captcha.jsx:114
+msgid "Load Captcha"
+msgstr ""
+
+#: src\components\Captcha.jsx:119
+msgid "Click to Load Captcha"
+msgstr ""
+
+#: src\components\Captcha.jsx:124
+msgid "Can't read? Reload:"
+msgstr ""
+
+#: src\components\Captcha.jsx:128
+msgid "Reload"
+msgstr ""
+
+#: src\components\Captcha.jsx:138
+msgid "Enter Characters"
 msgstr ""
 
 #: src\components\GetIID.jsx:44
@@ -1183,40 +1187,6 @@ msgstr ""
 msgid "Download Template"
 msgstr ""
 
-#: src\components\Rankings.jsx:147
-msgid "Total"
-msgstr ""
-
-#: src\components\Rankings.jsx:156
-msgid "Today"
-msgstr ""
-
-#: src\components\Rankings.jsx:165
-msgid "Yesterday"
-msgstr ""
-
-#: src\components\Rankings.jsx:174
-msgid "Countries Today"
-msgstr ""
-
-#: src\components\Rankings.jsx:183
-msgid "Charts"
-msgstr ""
-
-#: src\components\Rankings.jsx:201
-#: src\components\Rankings.jsx:210
-#: src\components\Rankings.jsx:219
-msgid "User"
-msgstr ""
-
-#: src\components\Rankings.jsx:226
-msgid "Country"
-msgstr ""
-
-#: src\components\Rankings.jsx:286
-msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
-msgstr ""
-
 #: src\components\CanvasItem.jsx:29
 msgid "Online Users"
 msgstr ""
@@ -1262,6 +1232,40 @@ msgstr ""
 msgid "Dimensions"
 msgstr ""
 
+#: src\components\Rankings.jsx:147
+msgid "Total"
+msgstr ""
+
+#: src\components\Rankings.jsx:156
+msgid "Today"
+msgstr ""
+
+#: src\components\Rankings.jsx:165
+msgid "Yesterday"
+msgstr ""
+
+#: src\components\Rankings.jsx:174
+msgid "Countries Today"
+msgstr ""
+
+#: src\components\Rankings.jsx:183
+msgid "Charts"
+msgstr ""
+
+#: src\components\Rankings.jsx:201
+#: src\components\Rankings.jsx:210
+#: src\components\Rankings.jsx:219
+msgid "User"
+msgstr ""
+
+#: src\components\Rankings.jsx:226
+msgid "Country"
+msgstr ""
+
+#: src\components\Rankings.jsx:286
+msgid "Ranking updates every 5 min. Daily rankings get reset at midnight UTC."
+msgstr ""
+
 #: src\core\chartSettings.js:30
 msgid "Top 10 Countries [pxls / day]"
 msgstr ""
@@ -1282,11 +1286,11 @@ msgstr ""
 msgid "Total Pixels placed per day"
 msgstr ""
 
-#: src\components\LogInForm.jsx:77
+#: src\components\LogInForm.jsx:78
 msgid "Name or Email"
 msgstr ""
 
-#: src\components\LogInForm.jsx:88
+#: src\components\LogInForm.jsx:89
 msgid "LogIn"
 msgstr ""
 
@@ -1334,32 +1338,12 @@ msgstr ""
 msgid "New Mail"
 msgstr ""
 
+#: src\components\ChangeName.jsx:64
+msgid "New Username"
+msgstr ""
+
 #: src\components\DeleteAccount.jsx:66
 msgid "Yes, Delete My Account!"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:35
-msgid "Block DMs"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:42
-msgid "Block all Private Messages"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:44
-msgid "Private"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:51
-msgid "Don't show me in global stats"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:57
-msgid "Unblock Users"
-msgstr ""
-
-#: src\components\SocialSettings.jsx:82
-msgid "You have no users blocked"
 msgstr ""
 
 #: src\components\ModCanvastools.jsx:168
@@ -1455,6 +1439,58 @@ msgstr ""
 msgid "Stop Cleaner"
 msgstr ""
 
+#: src\components\SocialSettings.jsx:35
+msgid "Block DMs"
+msgstr ""
+
+#: src\components\SocialSettings.jsx:42
+msgid "Block all Private Messages"
+msgstr ""
+
+#: src\components\SocialSettings.jsx:44
+msgid "Private"
+msgstr ""
+
+#: src\components\SocialSettings.jsx:51
+msgid "Don't show me in global stats"
+msgstr ""
+
+#: src\components\SocialSettings.jsx:57
+msgid "Unblock Users"
+msgstr ""
+
+#: src\components\SocialSettings.jsx:82
+msgid "You have no users blocked"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:48
+msgid "Interval is invalid"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:124
+msgid "Check who placed in an area"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:125
+msgid "Canvas"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:144
+msgid "Interval"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:159
+msgid "IID (optional)"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:239
+msgid "Get Pixels"
+msgstr ""
+
+#: src\components\ModWatchtools.jsx:271
+msgid "Get Users"
+msgstr ""
+
 #: src\components\Admintools.jsx:162
 msgid "Announcement"
 msgstr ""
@@ -1513,34 +1549,6 @@ msgstr ""
 msgid "User Name"
 msgstr ""
 
-#: src\components\ModWatchtools.jsx:48
-msgid "Interval is invalid"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:124
-msgid "Check who placed in an area"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:125
-msgid "Canvas"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:144
-msgid "Interval"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:159
-msgid "IID (optional)"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:239
-msgid "Get Pixels"
-msgstr ""
-
-#: src\components\ModWatchtools.jsx:271
-msgid "Get Users"
-msgstr ""
-
 #: src\components\ModIIDtools.jsx:20
 msgid "You must enter a duration"
 msgstr ""
@@ -1575,10 +1583,6 @@ msgstr ""
 
 #: src\components\contextmenus\ChannelContextMenu.jsx:46
 msgid "Mute"
-msgstr ""
-
-#: src\components\ChangeName.jsx:64
-msgid "New Username"
 msgstr ""
 
 #: src\components\windows\Help.jsx:15
